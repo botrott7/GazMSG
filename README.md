@@ -1,48 +1,46 @@
 # GazMSG
 Python-скрипт, который извлекает вложения из файлов сообщений (.msg), сохраняя вложения в указанную директорию.
 
-Инструкция по использованию GazMSG
+## Инструкция по использованию GazMSG
 
-Требования:
+### Требования:
 
 * Python 3.9.20 или выше
 * Библиотека extract-msg
 
 
-Linux (с установленным Git):
-
-Установка:
+### Установка:
 
 Linux (с установленным Git):
 
 1. Клонируйте репозиторий Git:
 
-git clone https://github.com/botrott7/GazMSG.git
+`git clone https://github.com/botrott7/GazMSG.git`
 
 
 2. Перейдите в директорию проекта:
 
-cd GazMSG
+`cd GazMSG`
 
 
 3. Создайте виртуальное окружение Python:
 
-python3 -m venv venv
+`python3 -m venv venv`
 
 
 4. Активируйте виртуальное окружение:
 
-source venv/bin/activate
+`source venv/bin/activate`
 
 
-5. Установите библиотеку extract-msg (версия 0.52.0):
+5. Установите библиотеку extract-msg (использовалась версия 0.52.0):
 
-pip install extract-msg==0.52.0
+`pip install extract-msg` или `pip install extract-msg==0.52.0`
 
 
 6. Запустите скрипт main.py:
 
-python main.py
+`python main.py`
 
 
 Использование:
